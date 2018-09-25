@@ -1,0 +1,256 @@
+<!-- tags.html -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>HTML Tags</title>
+    <meta charset="utf-8">
+  </head>
+  <body>
+
+    <div style="text-align: right;">
+      <a href="index.html" style="text-decoration:none;">Home</a>
+      <a href="tags.html" style="margin-left: 10px; text-decoration: none;">HTML Tags</a>
+      <a href="moby_dick.html" style="margin-left: 10px; text-decoration: none;">Moby Dick</a>
+    </div>
+
+    <h1>Important HTML tags</h1>
+
+    <a href="https://www.flickr.com/photos/jdhancock/3814523970">
+    <img src="images/storm_trooper_tagged.jpg" alt="Tagged Storm Trooper">
+    </a>
+
+    <p>
+      This page is designed as a quick reference for some of the common tags
+      covered in <a href="http://learnenough.com/html-tutorial"><em>Learn
+      Enough HTML to Be Dangerous</em></a>. In the process of making it, we'll
+      learn how to make HTML <em>tables</em> via <code>table</code> and
+      related tags.
+    </p>
+
+    <p>
+      The tables below don't include all HTML tags, but they do list many of
+      the most important ones.
+    </p>
+
+    <h2>Block Elements</h2>
+
+    <table>
+      <tr>
+        <th>Tag</th>
+        <th>Name</th>
+        <th>Purpose</th>
+      </tr>
+      <tr>
+        <td style="padding: 10px;"><code>h1</code>&ndash;<code>h6</code></td>
+        <td style="padding: 10px;">headings</td>
+        <td style="padding: 10px;">include a heading (levels 1&ndash;6)</td>
+      </tr>
+      <tr>
+        <td><code>p</code></td>
+        <td>paragraph</td>
+        <td>include a paragraph of text</td>
+      </tr>
+      <tr>
+        <td><code>table</code></td>
+        <td>table</td>
+        <td>include a table</td>
+      </tr>
+      <tr>
+        <td><code>tr</code></td>
+        <td>table row</td>
+        <td>include a row of data</td>
+      </tr>
+      <tr>
+        <td><code>th</code></td>
+        <td>table header</td>
+        <td>make a table header</td>
+      </tr>
+      <tr>
+        <td><code>td</code></td>
+        <td>table data</td>
+        <td>include a table data cell</td>
+      </tr>
+      <tr>
+        <td><code>header</code></td>
+        <td>header</td>
+        <td>label the page header</td>
+      </tr>
+      <tr>
+        <td><code>div</code></td>
+        <td>division</td>
+        <td>define block-level section in document</td>
+      </tr>
+      <tr>
+        <td><code>ol</code></td>
+        <td>ordered list</td>
+        <td>list elements in numerical order</td>
+      </tr>
+      <tr>
+        <td><code>ul</code></td>
+        <td>unordered list</td>
+        <td>list elements where order is unimportant</td>
+      </tr>
+      <tr>
+        <td><code>li</code></td>
+        <td>list item</td>
+        <td>include a list item (ordered or unordered)</td>
+      </tr>
+      <tr>
+        <td><code>blockquote</code></td>
+        <td>block quotation</td>
+        <td>show formatted quotation</td>
+      </tr>
+      <tr>
+        <td><code>br</code></td>
+        <td>line break</td>
+        <td>enter line break</td>
+      </tr>
+
+    </table>
+
+   <h2>Inline Elements</h2>
+
+    <table>
+      <tr>
+        <th>Tag</th>
+        <th>Name</th>
+        <th>Purpose</th>
+        <th>Example</th>
+        <th>Result</th>
+      </tr>
+      <tr>
+        <td><code>em</code></td>
+        <td>emphasized</td>
+        <td>make emphasized text</td>
+        <td>
+          <code>
+            &lt;em&gt;technical sophistication&lt;/em&gt;
+          </code>
+        </td>
+        <td><em>technical sophistication</em></td>
+      </tr>
+      <tr>
+        <td><code>strong</code></td>
+        <td>strong</td>
+        <td>make strong text</td>
+        <td>
+          <code>
+            &lt;strong&gt;at least a billion people&lt;/strong&gt;
+          </code>
+        </td>
+        <td><strong>at least a billion people</strong></td>
+      </tr>
+      <tr>
+        <td><code>a</code></td>
+        <td>anchor</td>
+        <td>make hyperlink</td>
+        <td>
+          <code>
+            &lt;a href="http://learnenough.com/"&gt;Learn Enough&lt;/a&gt;
+          </code>
+        </td>
+        <td>
+          <a href="http://learnenough.com/" target="_blank">Learn Enough</a>
+        </td>
+      </tr>
+      <tr>
+        <td><code>img</code></td>
+        <td>image</td>
+        <td>include an image</td>
+        <td>
+          <code>
+            &lt;img src="images/mhartl.jpg" alt="Michael Hartl"&gt;
+          </code>
+        </td>
+        <td>
+          <img src="images/mhartl.jpg" alt="Michael Hartl">
+        </td>
+      </tr>
+      <tr>
+        <td><code>code</code></td>
+        <td>code</td>
+        <td>format as source code</td>
+        <td>
+          <code>
+            &lt;code&gt;&lt;table&gt;&lt;/code&gt;
+          </code>
+        </td>
+        <td>
+          <code>table</code>
+        </td>
+      </tr>
+      <tr>
+        <td><code>span</code></td>
+        <td>span</td>
+        <td>define inline section in document</td>
+        <td>
+          <code>
+            &lt;span&gt;Call me Ishmael.&lt;/span&gt;
+          </code>
+        <td><span>Call me Ishmael.</span></td>
+      </tr>
+      <tr>
+        <td><code>html</code></td>
+        <td>html</td>
+        <td>define html language</td>
+        <td>
+          <code>
+            &lt;html lang="en"&gt;&lt;/html&gt;
+          </code>
+        <td></td>
+      </tr>
+      <tr>
+        <td><code>html</code></td>
+        <td>html</td>
+        <td>skeletal structure of a HTML document</td>
+        <td>
+          <code>
+            &lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;/body&gt;&lt;/html&gt;
+          </code>
+        <td></td>
+      </tr>
+      <tr>
+        <td><code>head</code></td>
+        <td>head</td>
+        <td>define header section in document</td>
+        <td>
+          <code>
+            &lt;head&gt;&lt;title&gt;Page Title&lt;/title&gt;&lt;meta charset="utf-8"&gt;&lt;/head&gt;
+          </code>
+        <td></td>
+      </tr>
+      <tr>
+        <td><code>body</code></td>
+        <td>body</td>
+        <td>define the body of the document</td>
+        <td>
+          <code>
+            &lt;body&gt;&lt;/body&gt;
+          </code>
+        <td></td>
+      </tr>
+      <tr>
+        <td><code>title</code></td>
+        <td>title</td>
+        <td>title of document</td>
+        <td>
+          <code>
+            &lt;title&gt;Page Title&lt;/title&gt;
+          </code>
+        <td></td>
+      </tr>
+      <tr>
+        <td><code>meta</code></td>
+        <td>meta</td>
+        <td>define document meta data like character set</td>
+        <td>
+          <code>
+            &lt;meta charset="utf-8"&gt;
+          </code>
+        <td></td>
+      </tr>
+
+    </table>
+
+  </body>
+</html>
